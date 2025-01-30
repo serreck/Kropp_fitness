@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Heebo";
-  src: url(/fonts/Heebo-Bold.woff2) format("woff2");
+  src: url(../fonts/Heebo-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Yantramanav";
-  src: url(/fonts/Yantramanav-Bold.woff2) format("woff2");
+  src: url(../fonts/Yantramanav-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -384,7 +384,7 @@ input[type="number"] {
   display: block;
   width: 26px;
   aspect-ratio: 1;
-  background: url("/icons/plus.svg") center/contain no-repeat;
+  background: url("../icons/plus.svg") center/contain no-repeat;
 }
 
 .backdrop-title::after {
@@ -444,7 +444,7 @@ input[type="number"] {
   right: 0;
   height: 100%;
   aspect-ratio: 1;
-  background: url(/icons/arrow-top-right-icon.svg) center/70% no-repeat;
+  background: url(../icons/arrow-top-right-icon.svg) center/70% no-repeat;
   border: var(--border);
   border-radius: 50%;
 }
@@ -553,7 +553,7 @@ input[type="number"] {
   content: "";
   width: clamp(60px, 10.1vw, 194px);
   aspect-ratio: 1;
-  background: url(/icons/bold-arrow-down-right.svg) center/contain no-repeat;
+  background: url(../icons/bold-arrow-down-right.svg) center/contain no-repeat;
   margin-right: 30px;
 }
 
@@ -656,7 +656,7 @@ input[type="number"] {
   align-items: center;
   row-gap: 32px;
   padding-top: var(--trainingTypesItemBgIconSize);
-  background: url("/icons/transparent-arrow-down-left.svg") 100% 0 /
+  background: url("../icons/transparent-arrow-down-left.svg") 100% 0 /
     var(--trainingTypesItemBgIconSize) no-repeat;
 }
 
@@ -678,7 +678,7 @@ input[type="number"] {
   justify-content: center;
   align-items: center;
   padding: 150px 30px;
-  background: url(/images/join-us-bcg-image.jpg) center/cover no-repeat
+  background: url(../images/join-us-bcg-image.jpg) center/cover no-repeat
     var(--color-dark-alternate);
 }
 
@@ -712,7 +712,7 @@ input[type="number"] {
   content: "";
   width: 26px;
   aspect-ratio: 1;
-  background: url(/icons/arrow-top-right-icon.svg) center/contain no-repeat;
+  background: url(../icons/arrow-top-right-icon.svg) center/contain no-repeat;
   transition-duration: var(--transition-duration);
 }
 
@@ -742,7 +742,7 @@ input[type="number"] {
   display: inline-block;
   height: 0.7em;
   aspect-ratio: 1;
-  background: url(/icons/bold-arrow-down-right.svg) center/contain no-repeat;
+  background: url(../icons/bold-arrow-down-right.svg) center/contain no-repeat;
   scale: 1 -1;
   margin-left: 0.14em;
 }
@@ -1000,7 +1000,7 @@ input[type="number"] {
   display: inline-block;
   height: 0.74em;
   aspect-ratio: 1;
-  background: url(/icons/bold-arrow-down-right.svg) center/contain no-repeat;
+  background: url(../icons/bold-arrow-down-right.svg) center/contain no-repeat;
   scale: -1 1;
   margin-left: 0.5em;
 }
@@ -1019,7 +1019,7 @@ input[type="number"] {
   right: 0;
   height: 100%;
   aspect-ratio: 1;
-  background: url(/icons/arrow-top-right-icon.svg) center / 70% no-repeat;
+  background: url(../icons/arrow-top-right-icon.svg) center / 70% no-repeat;
   border: var(--border);
   border-radius: 50%;
 }
